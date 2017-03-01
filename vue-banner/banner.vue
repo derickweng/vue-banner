@@ -12,7 +12,7 @@
     </div>
 </template>
 <script>
-import reloadImg from 'assets/img/loading.gif'
+import reloadImg from './loading.gif'
 export default {
     name : 'banner',
     props : {
@@ -144,7 +144,6 @@ export default {
 }
 </script>
 <style scoped lang="scss">
-@import '~assets/css/theme.scss';
 .banner{
    position:relative;
 }
@@ -164,7 +163,7 @@ export default {
     margin-right:0.5rem;
 }
 .slider-btn.active{
-    background:$themeColor;
+    background:#c62f2f;
 }
 .slider-wrap{
     overflow:hidden;
